@@ -1,7 +1,7 @@
 # express-router-list
 List out all router of express
 
-`function print (path, layer) {
+<function print (path, layer) {
   if (layer.route) {
     layer.route.stack.forEach(print.bind(null, path.concat(split(layer.route.path))))
   } else if (layer.name === 'router' && layer.handle.stack) {
@@ -11,7 +11,7 @@ List out all router of express
       layer.method.toUpperCase(),
       path.concat(split(layer.regexp)).filter(Boolean).join('/'))
   }
-}`
+}>
 
 `function split (thing) {
   if (typeof thing === 'string') {
