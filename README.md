@@ -35,5 +35,5 @@ function split (thing) {
 }
 ```
 ```js
-app._router.stack.forEach(print.bind(null, []))`
+app._router.stack.forEach(print.bind(null, []))
 ```
