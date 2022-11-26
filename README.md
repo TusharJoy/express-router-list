@@ -1,5 +1,5 @@
 # express-router-list
-List out all router of express
+List out all route of express APP
 ## api.js
 
 ```js
